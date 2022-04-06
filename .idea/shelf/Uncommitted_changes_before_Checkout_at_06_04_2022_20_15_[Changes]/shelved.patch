@@ -1,0 +1,16 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># libpythonpro\r\nMódulo para exemplificar a criação de projetos Python do curso Pytools\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+--- a/README.md	(revision 5c46f630958fcdd47c7ba15d243c541e617c17e9)
++++ b/README.md	(date 1649286915161)
+@@ -1,2 +1,4 @@
+ # libpythonpro
+ Módulo para exemplificar a criação de projetos Python do curso Pytools
++
++Nesse curso é ensinado como contribuir com projetos de código aberto
+\ No newline at end of file

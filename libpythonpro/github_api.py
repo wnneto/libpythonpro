@@ -1,7 +1,6 @@
 import requests
 
 
-
 def buscar_avatar(usuario):
     """
     Buscar o avatar de um usuário no Github
@@ -12,5 +11,6 @@ def buscar_avatar(usuario):
     resp = requests.get(url)
     return resp.json()['avatar_url']
 
+
 if __name__ == '__main__':
-    print(buscar_avatar('wnneto'))
+    print(buscar_avatar(input('DIGITE O USUÁRIO: ')))
